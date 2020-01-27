@@ -1,14 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
 import member from '../assets/member.png'
-import styled from 'styled-components'
 import Text from './Text'
 import ImageHolder from './ImageHolder'
 import Button from './Button'
-
-const StyledDiv = styled.div`
-  text-align: center;
-`
+import StyledDiv from './StyledDiv'
 
 const Details = () => {
   return (

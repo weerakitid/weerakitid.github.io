@@ -18,4 +18,14 @@ const Text = styled.p.attrs(props => ({
   `}
 `
 
+export const StatusText = styled(Text)`
+  color: #919191;
+  font-size: 36px;
+`
+
+export const TicketNumber = styled(Text)`
+  color: #f5678d;
+  font-size: 64px;
+`
+
 export default Text;
